@@ -1,7 +1,5 @@
 /* body */
 body {
-    color: white;
-    background-color: slategrey;
     font-family: Helvetica;
 }
 
@@ -26,6 +24,6 @@ hr {
 	border-width: 0;
 	text-align: left;
 	margin-left: 0;
-	color: whitesmoke;
-	background-color: whitesmoke;
+	color: slategrey;
+	background-color: slategrey;
 }
