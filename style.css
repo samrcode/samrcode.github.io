@@ -1,6 +1,8 @@
-/* text */
-h1, h2, h3, h4, h5, h6, p, a, li {
-	font-family: Helvetica;
+/* body */
+body {
+    color: white;
+    background-color: slategrey;
+    font-family: Helvetica;
 }
 
 /* custom bullets */
@@ -24,6 +26,6 @@ hr {
 	border-width: 0;
 	text-align: left;
 	margin-left: 0;
-	color: darkslategray;
-	background-color: darkslategray;
+	color: whitesmoke;
+	background-color: whitesmoke;
 }

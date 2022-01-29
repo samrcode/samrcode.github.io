@@ -1,4 +1,3 @@
-<!-- Original page at https://samrcode.w3spaces.com -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,59 +7,27 @@
     <title>samrcode</title>
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="stuff.js"></script>
 </head>
 <body>
-    <script>
-        // https://www.w3schools.com/w3css/w3css_tabulators.asp
-        function openTab(tabName) {
-            var i;
-            var x = document.getElementsByClassName("tab");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            document.getElementById(tabName).style.display = "block";
-        }
-    </script>
     <div class="w3-display-container">
         <img src="flower_bg.jpg" alt="Background" />
+
+        <!-- Head -->
         <div class="w3-display-topleft w3-padding">
             <img src="flower.png" alt="The Flower" style="width:64px; height:64px;" />
         </div>
-        <div class="w3-display-topright w3-padding"><p style="color: white;">welcome to samrcode home</p></div>
-        <!--
-        <div class="w3-display-left w3-padding">
-            <a href="https://replit.com/@samrcode">repl.it page</a>
-            <br />
-            <a href="https://github.com/samrcode">github page</a>
-        </div>
-        -->
-
-        <div class="w3-container">
-            <div id="verycooltest" class="tab">
-                <h2>Very Cool Test</h2>
-                <p>This is a test. Wow.</p>
-                <p>Very cool.</p>
-            </div>
-          
-            <div id="samrcode" class="tab" style="display: none">
-                <h2>samrcode</h2>
-                <p>Hello!</p>
-                <ul>
-                    <li>Test.</li>
-                    <li><a href="samrcode/pages/about">About Me</a></li>
-                </ul>
-            </div>
-            
-            <div id="SomeStrangeGame" class="tab" style="display: none">
-                <h2>Some Strange Game</h2>
-                <p>A game I'm working on</p>
-            </div>
+        <div class="w3-display-topright w3-padding">
+            <p style="color: white;">welcome to samrcode home</p>
         </div>
 
-        <div class="w3-bar w3-black w3-display-bottom">
-            <button class="w3-bar-item w3-button" onclick="openTab('verycooltest')">Very Cool Test</button>
-            <button class="w3-bar-item w3-button" onclick="openTab('samrcode')">samrcode</button>
-            <button class="w3-bar-item w3-button" onclick="openTab('SomeStrangeGame')">Some Strange Game</button>
+        <!-- Nav Bar -->
+        <div class="w3-bar w3-black w3-display-bottommiddle">
+            <button class="w3-bar-item w3-button" onclick="openPage('samrcode')">me</button>
+            <button class="w3-bar-item w3-button" onclick="openPage('microchat')">micro-chat</button>
+            <button class="w3-bar-item w3-button" onclick="openPage('somestrangegame')">some strange game</button>
+            <button class="w3-bar-item w3-button" onclick="openPage('notes.html')">notes</button>
+            <button class="w3-bar-item w3-button" onclick="openPage('places.html')">places</button>
         </div>
     </div>
 </body>
