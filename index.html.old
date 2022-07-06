@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>samrcode</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="stuff.js"></script>
+</head>
+<body>
+    <div class="w3-display-container">
+        <img src="flower_bg.jpg" alt="Background" />
+
+        <!-- Head -->
+        <div class="w3-display-topleft w3-padding">
+            <img src="flower.png" alt="The Flower" style="width:64px; height:64px;" />
+        </div>
+        <div class="w3-display-topright w3-padding">
+            <p style="color: white;">welcome to samrcode home</p>
+        </div>
+
+        <!-- Nav Bar -->
+        <div class="w3-bar w3-black w3-display-bottommiddle">
+            <button class="w3-bar-item w3-button" onclick="openPage('samrcode')">me</button>
+            <button class="w3-bar-item w3-button" onclick="openPage('microchat')">micro-chat</button>
+            <button class="w3-bar-item w3-button" onclick="openPage('somestrangegame')">some strange game</button>
+            <button class="w3-bar-item w3-button" onclick="openPage('notes.html')">notes</button>
+            <button class="w3-bar-item w3-button" onclick="openPage('places.html')">places</button>
+        </div>
+    </div>
+</body>
+</html>
